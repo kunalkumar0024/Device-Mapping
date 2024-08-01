@@ -6,7 +6,7 @@ The system is designed to manage a collection of devices and users, with a stric
 
 ## **🛠️ Supported Operations:**
 
-### **Device Operations:**
+## **Device Operations:**
 
 **🔧 Add New Device:** This operation involves inserting a new device record into the devices table, specifying its unique identifier (device_id)
 
