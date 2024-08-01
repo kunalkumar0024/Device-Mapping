@@ -58,11 +58,11 @@ The system is designed to manage a collection of devices and users, with a stric
 
 3. Build the Project:
    ```bash
-   ./mvnw clean install
+   /mvnw clean install
 
 4. Run the Application:
    ```bash
-   ./mvnw spring-boot:run
+   /mvnw spring-boot:run
 
 Access API Documentation: Detailed API endpoints and usage instructions can be found in this README file.
 
@@ -127,3 +127,40 @@ Access API Documentation: Detailed API endpoints and usage instructions can be f
 ```bash
 /getUserById/{userId}
 ``` 
+
+## **Sample Reqest Body to add new Device**
+```json
+{
+  "username": "john_doe",
+  "deviceId": "12345",
+  "deviceType": "smartphone",
+  "deviceModel": "Galaxy S21",
+  "createDate": "2024-08-01T14:30:00",
+  "updatedDate": "2024-08-01T15:00:00"
+}
+```
+
+## **Sample Request Body to add new User**
+```json
+{
+  "userId": "user123",
+  "username": "john_doe",
+  "createdDate": "2024-08-01T14:30:00"
+}
+```
+
+## **Sample Response on SUCCESS**
+```json
+{
+  "statusCode": "0",
+  "statusDesc": "Operation completed successfully"
+}
+```
+
+## **Sample Response on FAILED**
+```json
+{
+  "statusCode": "-1",
+  "statusDesc": "Operation failed"
+}
+```
