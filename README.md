@@ -44,7 +44,7 @@ The system is designed to manage a collection of devices and users, with a stric
 
 1. **Install Cassandra**: Ensure Cassandra is installed and running locally. Follow [Cassandra Installation Guide](https://cassandra.apache.org/doc/latest/getting_started/installing.html) for setup instructions.
 
-2. **Java and Maven**: Ensure you have Java 11 or higher and Maven installed.
+2. **Java and Maven**: Ensure you have Java 8 or higher and Maven installed.
 
 ### Build and Run
 
